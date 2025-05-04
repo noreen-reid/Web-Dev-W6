@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Veluxe – Modern Fashion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="glass-header">
+    <div class="brand">Veluxe</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#gallery">Collection</a></li>
+        <li><a href="#about">Story</a></li>
+        <li><a href="#signup">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="fade-in">Redefine Elegance</h1>
+      <p class="fade-in delay">Unleashing modern silhouettes crafted with purpose.</p>
+      <a href="#gallery" class="cta-button fade-in delay2">View Collection</a>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section" id="gallery">
+    <h2>Signature Looks</h2>
+    <div class="gallery-grid">
+      <img src="https://via.placeholder.com/300x400?text=Look+1" alt="Look 1" />
+      <img src="https://via.placeholder.com/300x400?text=Look+2" alt="Look 2" />
+      <img src="https://via.placeholder.com/300x400?text=Look+3" alt="Look 3" />
+      <img src="https://via.placeholder.com/300x400?text=Look+4" alt="Look 4" />
+    </div>
+  </section>
+
+  <!-- About Tabs -->
+  <section class="tabs-section" id="about">
+    <div class="tabs-container">
+      <button class="tab active" data-tab="story">Our Story</button>
+      <button class="tab" data-tab="ethics">Sustainability</button>
+    </div>
+    <div id="story" class="tab-content">
+      <p>Born from minimalism and driven by edge, Veluxe celebrates fashion with function. We focus on detail, structure, and longevity in every piece.</p>
+    </div>
+    <div id="ethics" class="tab-content hidden">
+      <p>Veluxe uses ethical sourcing and sustainable practices, prioritizing quality over quantity. Because style shouldn't cost the earth.</p>
+    </div>
+  </section>
+
+  <!-- Signup Section -->
+  <section class="signup-section" id="signup">
+    <div class="signup-card glass">
+      <h3>Get Exclusive Access</h3>
+      <p>Join our newsletter for early drops and style inspiration.</p>
+      <form id="signupForm" novalidate>
+        <input type="email" id="email" placeholder="Email address" required />
+        <small id="emailError" class="error"></small>
+        <input type="password" id="password" placeholder="Create password" required minlength="8" />
+        <small id="passwordError" class="error"></small>
+        <button type="submit">Join Now</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Veluxe. Crafted with purpose.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
